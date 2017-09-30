@@ -484,9 +484,7 @@ vendor/lib/libsmwrapper.so
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
-vendor/lib64/libI420colorconvert.so
 vendor/lib64/libOmxVpp.so
-vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphvx.so
@@ -494,12 +492,10 @@ vendor/lib64/libvpplibrary.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/libFileMux_proprietary.so
-vendor/lib/libI420colorconvert.so
 vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libdsd2pcm.so
-vendor/lib/libmm-color-convertor.so
 vendor/lib/libswvdec.so
 vendor/lib/libvppclient.so
 vendor/lib/libvpphvx.so
