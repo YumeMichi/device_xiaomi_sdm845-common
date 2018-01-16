@@ -22,6 +22,7 @@ vendor.fps_hal.            u:object_r:vendor_fp_prop:s0
 persist.vendor.sys.pay.ifaa              u:object_r:vendor_tee_listener_prop:s0
 
 # Power
+vendor.powerhal.audio      u:object_r:power_prop:s0
 vendor.powerhal.state      u:object_r:power_prop:s0
 
 # Thermal
