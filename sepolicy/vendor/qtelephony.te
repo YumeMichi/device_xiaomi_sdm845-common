@@ -1,0 +1,2 @@
+# Allow vendor_qtelephony to access perf hal
+hal_client_domain(vendor_qtelephony, hal_perf)
