@@ -1,0 +1,2 @@
+# Allow secure_element to access perf hal
+hal_client_domain(secure_element, hal_perf)
