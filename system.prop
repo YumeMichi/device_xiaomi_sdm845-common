@@ -21,9 +21,6 @@ vendor.bluetooth.soc=cherokee
 camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,co.aospa.facesense
 
-# Charger
-ro.charger.enable_suspend=true
-
 # CNE
 persist.vendor.cne.feature=1
 
