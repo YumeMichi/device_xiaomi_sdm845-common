@@ -34,6 +34,9 @@ ro.miui.cust_variant       u:object_r:exported_default_prop:s0
 # Mlipay
 persist.vendor.sys.pay.ifaa              u:object_r:vendor_tee_listener_prop:s0
 
+# Qspmhal
+ro.vendor.qspm.enable                    u:object_r:vendor_qspm_prop:s0
+
 # Radio
 persist.vendor.data.shsusr_load          u:object_r:vendor_radio_prop:s0
 persist.vendor.data.qmipriod_load        u:object_r:vendor_radio_prop:s0
