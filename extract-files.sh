@@ -14,7 +14,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 PA_ROOT="${MY_DIR}"/../../..
 
-HELPER="${PA_ROOT}/vendor/blobscript/extract_utils.sh"
+HELPER="${PA_ROOT}/vendor/lineage/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
