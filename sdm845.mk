@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     Snap \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Charger mode images
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
