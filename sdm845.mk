@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
+    audio.primary.sdm845 \
     audio.r_submix.default \
     audio.usb.default \
     libqcompostprocbundle \
