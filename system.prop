@@ -104,3 +104,6 @@ telephony.lteOnCdmaDevice=1
 # SSR
 persist.vendor.ssr.enable_ramdumps=0
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# Xiaomi sensors
+ro.sensor.pickup=xiaomi.sensor.pickup
