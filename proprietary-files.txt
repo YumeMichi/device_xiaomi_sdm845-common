@@ -93,10 +93,6 @@ vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 
-# Bluetooth (aptX) - from crosshatch - QP1A.190711.020
-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/lib64/libcdsp_default_listener.so
@@ -555,12 +551,8 @@ vendor/lib64/vendor.qti.hardware.mlshal@1.0.so
 
 # Media
 system/lib64/libFileMux.so
-system/lib64/libmmosal.so
-system/lib64/libmmparser_lite.so
 system/lib/libFileMux.so
 system/lib/libOmxMux.so
-system/lib/libmmosal.so
-system/lib/libmmparser_lite.so
 vendor/bin/vppservice
 vendor/etc/init/vppservice.rc
 vendor/lib64/libI420colorconvert.so
