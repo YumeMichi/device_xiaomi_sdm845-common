@@ -326,7 +326,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.vendor \
     libnl \
     libqdMetaData \
-    libqdMetaData.system
+    libqdMetaData.system \
+    libwfdaac \
+    libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
