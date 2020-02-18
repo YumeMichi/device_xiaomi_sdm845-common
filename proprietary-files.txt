@@ -93,10 +93,6 @@ vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 
-# Bluetooth (aptX) - from crosshatch - QP1A.190711.020
-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/lib64/libcdsp_default_listener.so
@@ -241,25 +237,6 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # DPM
-product/bin/dpmd
-product/etc/dpm/dpm.conf
-product/etc/init/dpmd.rc
-product/etc/permissions/com.qti.dpmframework.xml
-product/etc/permissions/dpmapi.xml
-product/framework/com.qti.dpmframework.jar
-product/framework/dpmapi.jar
-product/lib64/com.qualcomm.qti.dpm.api@1.0.so
-product/lib64/libdpmctmgr.so
-product/lib64/libdpmfdmgr.so
-product/lib64/libdpmframework.so
-product/lib64/libdpmtcm.so
-product/lib/com.qualcomm.qti.dpm.api@1.0.so
-product/lib/libdpmctmgr.so
-product/lib/libdpmfdmgr.so
-product/lib/libdpmframework.so
-product/lib/libdpmtcm.so
--product/priv-app/dpmserviceapp/dpmserviceapp.apk
-system/framework/tcmclient.jar
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
@@ -375,58 +352,6 @@ vendor/lib64/hw/vulkan.sdm845.so
 vendor/lib/hw/vulkan.sdm845.so
 
 # IMS
--product/app/uceShimService/uceShimService.apk
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
-product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
-product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
-product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar
-product/lib64/com.qualcomm.qti.imscmservice@1.0.so
-product/lib64/com.qualcomm.qti.imscmservice@2.0.so
-product/lib64/com.qualcomm.qti.imscmservice@2.1.so
-product/lib64/com.qualcomm.qti.imscmservice@2.2.so
-product/lib64/com.qualcomm.qti.uceservice@2.0.so
-product/lib64/com.qualcomm.qti.uceservice@2.1.so
-product/lib64/libimscamera_jni.so
-product/lib64/libimsmedia_jni.so
-product/lib64/lib-imsvideocodec.so
-product/lib64/lib-imsvt.so
-product/lib64/lib-imsvtextutils.so
-product/lib64/lib-imsvtutils.so
-product/lib64/vendor.qti.hardware.radio.ims@1.0.so
-product/lib64/vendor.qti.hardware.radio.ims@1.1.so
-product/lib64/vendor.qti.hardware.radio.ims@1.2.so
-product/lib64/vendor.qti.hardware.radio.ims@1.3.so
-product/lib64/vendor.qti.hardware.radio.ims@1.4.so
-product/lib64/vendor.qti.ims.callinfo@1.0.so
-product/lib64/vendor.qti.ims.rcsconfig@1.0.so
-product/lib64/vendor.qti.imsrtpservice@2.0.so
-product/lib64/vendor.qti.imsrtpservice@2.1.so
-product/lib/com.qualcomm.qti.imscmservice@1.0.so
-product/lib/com.qualcomm.qti.imscmservice@2.0.so
-product/lib/com.qualcomm.qti.imscmservice@2.1.so
-product/lib/com.qualcomm.qti.imscmservice@2.2.so
-product/lib/com.qualcomm.qti.uceservice@2.0.so
-product/lib/com.qualcomm.qti.uceservice@2.1.so
-product/lib/libimscamera_jni.so
-product/lib/libimsmedia_jni.so
-product/lib/lib-imsvideocodec.so
-product/lib/lib-imsvt.so
-product/lib/lib-imsvtextutils.so
-product/lib/lib-imsvtutils.so
-product/lib/vendor.qti.hardware.radio.ims@1.0.so
-product/lib/vendor.qti.hardware.radio.ims@1.1.so
-product/lib/vendor.qti.hardware.radio.ims@1.2.so
-product/lib/vendor.qti.hardware.radio.ims@1.3.so
-product/lib/vendor.qti.hardware.radio.ims@1.4.so
-product/lib/vendor.qti.ims.callinfo@1.0.so
-product/lib/vendor.qti.ims.rcsconfig@1.0.so
-product/lib/vendor.qti.imsrtpservice@2.0.so
-product/lib/vendor.qti.imsrtpservice@2.1.so
--product/priv-app/ims/ims.apk
-system/lib/libdiag_system.so
-system/lib64/libdiag_system.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -546,12 +471,8 @@ vendor/lib/libsmwrapper.so
 
 # Media
 system/lib64/libFileMux.so
-system/lib64/libmmosal.so
-system/lib64/libmmparser_lite.so
 system/lib/libFileMux.so
 system/lib/libOmxMux.so
-system/lib/libmmosal.so
-system/lib/libmmparser_lite.so
 vendor/bin/vppservice
 vendor/etc/init/vppservice.rc
 vendor/lib64/libI420colorconvert.so
@@ -686,8 +607,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 system/bin/charger:system/bin/chargeonlymode|69b29c2c7b7c65a0d8fd26c2a56f6211e2795fc5
 
 # QMI
-system/etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
-system/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
 vendor/etc/sec_config
 vendor/lib64/libdiag.so
@@ -726,13 +645,6 @@ vendor/lib/libqminvapi.so
 vendor/lib/libqmiservices.so
 
 # RIL
--product/app/QtiTelephonyService/QtiTelephonyService.apk
-product/etc/permissions/qcrilhook.xml
-product/etc/permissions/telephonyservice.xml
-product/framework/qcrilhook.jar
-product/framework/qti-telephony-common.jar
-product/framework/QtiTelephonyServicelibrary.jar
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrild
 vendor/bin/adpl
@@ -938,49 +850,6 @@ vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
 # WiFi Display
-product/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
-product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
-system/bin/wfdservice
-system/etc/init/wfdservice.rc
-system/etc/wfdconfigsink.xml
--system/framework/WfdCommon.jar
-system/lib64/libmmrtpdecoder.so
-system/lib64/libmmrtpencoder.so
-system/lib64/libwfdclient.so
-system/lib64/libwfdcommonutils.so
-system/lib64/libwfdconfigutils.so
-system/lib64/libwfdmminterface.so
-system/lib64/libwfdmmsink.so
-system/lib64/libwfdnative.so
-system/lib64/libwfdrtsp.so
-system/lib64/libwfdsinksm.so
-system/lib64/libwfdsm.so
-system/lib64/libwfduibcinterface.so
-system/lib64/libwfduibcsinkinterface.so
-system/lib64/libwfduibcsink.so
-system/lib64/libwfduibcsrcinterface.so
-system/lib64/libwfduibcsrc.so
-system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-system/lib/libmmrtpdecoder.so
-system/lib/libmmrtpencoder.so
-system/lib/libwfdaac.so
-system/lib/libwfdavenhancements.so
-system/lib/libwfdclient.so
-system/lib/libwfdcommonutils.so
-system/lib/libwfdconfigutils.so
-system/lib/libwfdmminterface.so
-system/lib/libwfdmmsink.so
-system/lib/libwfdmmsrc_system.so
-system/lib/libwfdrtsp.so
-system/lib/libwfdservice.so
-system/lib/libwfdsinksm.so
-system/lib/libwfdsm.so
-system/lib/libwfduibcinterface.so
-system/lib/libwfduibcsinkinterface.so
-system/lib/libwfduibcsink.so
-system/lib/libwfduibcsrcinterface.so
-system/lib/libwfduibcsrc.so
--system/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
