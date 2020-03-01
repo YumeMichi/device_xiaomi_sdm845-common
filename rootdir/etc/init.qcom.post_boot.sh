@@ -27,6 +27,9 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# Enable SIGKILL memory reap
+echo 1 > /proc/sys/vm/reap_mem_on_sigkill
+
 # Let kernel know our image version/variant/crm_version
 if [ -f /sys/devices/soc0/select_image ]; then
     image_version="10:"
