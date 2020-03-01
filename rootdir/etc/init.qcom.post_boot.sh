@@ -27,6 +27,12 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# Setup 3GB of vbswap
+echo 3221225472 > /sys/devices/virtual/block/vbswap0/disksize
+echo 130 > /proc/sys/vm/swappiness
+mkswap /dev/block/vbswap0
+swapon /dev/block/vbswap0
+
 # Enable SIGKILL memory reap
 echo 1 > /proc/sys/vm/reap_mem_on_sigkill
 
