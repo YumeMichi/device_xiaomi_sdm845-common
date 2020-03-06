@@ -208,6 +208,16 @@ vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.color@1.2.so
 vendor/lib/vendor.display.postproc@1.0.so
 
+# Display feature
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
+vendor/lib64/hw/displayfeature.default.so
+vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+vendor/lib/hw/displayfeature.default.so
+vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
+vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
+
 # Display utils
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc

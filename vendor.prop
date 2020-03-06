@@ -87,6 +87,10 @@ persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 
+# Display features
+persist.vendor.df.extcolor.proc=0
+persist.vendor.max.brightness=0
+
 # Display post-processing
 ro.vendor.display.cabl=2
 
