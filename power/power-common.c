@@ -169,7 +169,7 @@ int open_ts_input() {
 
 void set_feature(feature_t feature, int state) {
     switch (feature) {
-        case POWER_FEATURE_DOUBLE_TAP_TO_WAKE: {
+        case POWER_FEATURE_DOUBLE_TAP: {
             int fd = open_ts_input();
             if (fd == -1) {
                 ALOGW("DT2W won't work because no supported touchscreen input devices were found");
