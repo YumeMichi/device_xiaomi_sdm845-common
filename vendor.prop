@@ -128,7 +128,7 @@ ro.vendor.audio.soundtrigger.training.level=60
 ro.vendor.audio.soundtrigger.hist.duration=1500
 
 # Media
-vendor.mm.enable.qcom_parser=16777215
+vendor.mm.enable.qcom_parser=50200575
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
