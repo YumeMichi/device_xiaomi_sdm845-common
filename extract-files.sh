@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Copyright (C) 2018-2020 The LineageOS Project
-# Copyright (C) 2019 The Paranoid Android Project
+# Copyright (C) 2020 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
