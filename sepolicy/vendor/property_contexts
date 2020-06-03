@@ -41,6 +41,9 @@ persist.vendor.data.qmipriod_load        u:object_r:vendor_radio_prop:s0
 # Sensors
 persist.sensor.sardisable  u:object_r:sensors_prop:s0
 
+# SLM
+persist.vendor.slm.        u:object_r:vendor_slm_prop:s0
+
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
 sys.thermal.               u:object_r:thermal_engine_prop:s0
