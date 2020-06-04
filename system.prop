@@ -103,3 +103,4 @@ telephony.lteOnCdmaDevice=1
 
 # Xiaomi sensors
 ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.proximity=true
