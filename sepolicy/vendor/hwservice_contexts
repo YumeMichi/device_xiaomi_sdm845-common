@@ -7,6 +7,7 @@ vendor.goodix.hardware.fingerprintextension::IGoodixBiometricsFingerprint     u:
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon       u:object_r:hal_fingerprint_hwservice:s0
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt    u:object_r:hal_fingerprint_hwservice:s0
 vendor.qti.hardware.embmssl::IEmbms                                           u:object_r:hal_embmssl_hwservice:s0
+vendor.qti.memory.pasrmanager::IPasrManager                                   u:object_r:hal_pasrmanager_memory_hwservice:s0
 vendor.qti.hardware.slmadapter::ISlmAdapter                                   u:object_r:hal_slmadapter_hwservice:s0
 vendor.synaptics.fingerprints.interfaces.extensions::ISensorTest              u:object_r:hal_fingerprint_hwservice:s0
 vendor.synaptics.fingerprints.interfaces.extensions::INavigation              u:object_r:hal_fingerprint_hwservice:s0
