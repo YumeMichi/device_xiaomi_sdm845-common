@@ -15,5 +15,11 @@ binder_call(hal_pasrmanager_memory_client, hal_pasrmanager_memory_server)
 # Add pasrmanager to hwservice_manager and allow it to be discovered
 hal_attribute_hwservice(hal_pasrmanager_memory, hal_pasrmanager_memory_hwservice)
 
+# Read /proc/zoneinfo
+allow hal_pasrmanager_memory_qti proc_zoneinfo:file r_file_perms;
+
+# Read /proc/meminfo
+allow hal_pasrmanager_memory_qti proc_meminfo:file r_file_perms;
+
 # For reading "vendor.pasr." properties
 get_prop(hal_pasrmanager_memory_qti, vendor_pasr_prop)
