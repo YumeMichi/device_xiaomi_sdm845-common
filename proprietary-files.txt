@@ -467,9 +467,6 @@ vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # Media
-system/lib64/libFileMux.so
-system/lib/libFileMux.so
-system/lib/libOmxMux.so
 vendor/bin/vppservice
 vendor/etc/init/vppservice.rc
 vendor/lib64/libI420colorconvert.so
