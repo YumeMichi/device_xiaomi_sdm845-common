@@ -21,5 +21,8 @@ allow hal_pasrmanager_memory_qti proc_zoneinfo:file r_file_perms;
 # Read /proc/meminfo
 allow hal_pasrmanager_memory_qti proc_meminfo:file r_file_perms;
 
+# Read sysfs directories
+allow hal_pasrmanager_memory_qti sysfs:dir r_dir_perms;
+
 # For reading "vendor.pasr." properties
 get_prop(hal_pasrmanager_memory_qti, vendor_pasr_prop)
