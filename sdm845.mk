@@ -218,11 +218,8 @@ PRODUCT_PACKAGES += \
 # Perf
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-impl \
-    android.hardware.power@1.2-service
 
+# Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
