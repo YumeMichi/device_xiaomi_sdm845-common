@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Device specific settings -->
-    <string name="device_settings_app_name">Advanced settings</string>
-
     <!-- Thermal profiles -->
     <string name="thermal_title">Thermal profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>

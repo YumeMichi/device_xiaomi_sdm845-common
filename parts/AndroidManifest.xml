@@ -30,7 +30,7 @@
         android:targetSdkVersion="24"/>
 
     <application
-        android:label="@string/device_settings_app_name"
+        android:label="@string/thermal_title"
         android:persistent="true">
 
         <receiver android:name=".BootCompletedReceiver">
