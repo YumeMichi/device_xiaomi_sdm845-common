@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018-2020 The LineageOS Project
-     Copyright (C) 2020 Paranoid Android
+     Copyright (C) 2018 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,13 +16,13 @@
 -->
 <resources>
     <!-- Thermal profiles -->
-    <string name="thermal_title">Perfil de otimização</string>
-    <string name="thermal_summary">Defina o perfil de cada aplicativo para obter uma melhor performance</string>
-    <string name="thermal_default">Padrão</string>
-    <string name="thermal_benchmark">Desempenho</string>
-    <string name="thermal_browser">Navegador</string>
-    <string name="thermal_camera">Câmera</string>
-    <string name="thermal_dialer">Discador</string>
-    <string name="thermal_gaming">Jogos</string>
-    <string name="thermal_streaming">Streaming</string>
+    <string name="thermal_title">Hồ sơ tối ưu hóa</string>
+    <string name="thermal_summary">Điều chỉnh cấu hình trên mỗi ứng dụng để có hiệu suất tối ưu</string>
+    <string name="thermal_default">Không tối ưu hóa</string>
+    <string name="thermal_benchmark">Hiệu suất</string>
+    <string name="thermal_browser">Trình duyệt</string>
+    <string name="thermal_camera">Máy ảnh</string>
+    <string name="thermal_dialer">Trình quay số</string>
+    <string name="thermal_gaming">Trò chơi</string>
+    <string name="thermal_streaming">Ứng dụng truyền phát</string>
 </resources>
