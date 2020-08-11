@@ -78,7 +78,6 @@ media.stagefright.enable-fma2dp=true
 media.stagefright.enable-scan=true
 media.stagefright.audio.deep=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
-mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
