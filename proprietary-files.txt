@@ -800,7 +800,7 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/thermal.sdm845.so
 vendor/lib/hw/thermal.sdm845.so
 
-# Thermal engine
+# Thermal engine - from blueline - QP1A.191005.007
 vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
 vendor/lib/libthermalclient.so
