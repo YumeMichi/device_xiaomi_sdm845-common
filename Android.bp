@@ -1,4 +1,7 @@
 soong_namespace {
+    imports: [
+        "hardware/google/pixel",
+    ],
 }
 
 hidl_package_root {
