@@ -93,7 +93,7 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
-ifneq ($(filter equuleus ,$(TARGET_DEVICE)),)
+ifneq ($(filter equuleus ursa,$(TARGET_DEVICE)),)
   DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
 endif
 
