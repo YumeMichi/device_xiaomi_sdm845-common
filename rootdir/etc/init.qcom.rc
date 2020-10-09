@@ -686,6 +686,12 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     socket audio_hw_socket seqpacket 0666 system system
     onrestart restart audioserver
 
+service vendor.power /vendor/bin/hw/android.hardware.power-service
+    override
+    class hal
+    user system
+    group system input
+
 on property:vold.decrypt=trigger_restart_framework
     restart vendor.audio-hal-2-0
     start vendor-sensor-sh
