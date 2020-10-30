@@ -27,4 +27,5 @@ cc_binary {
         "liblog",
         "libutils",
     ],
+    overrides: ["android.hardware.light@2.0-service"],
 }

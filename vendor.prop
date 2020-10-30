@@ -84,9 +84,6 @@ persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 vendor.qcom.bluetooth.soc=cherokee
 
-# Display post-processing
-ro.vendor.display.cabl=2
-
 # DRM
 drm.service.enabled=true
 
@@ -94,8 +91,6 @@ drm.service.enabled=true
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Graphics
-debug.egl.hw=0
-debug.sf.hw=0
 ro.opengles.version=196610
 
 # IMS
