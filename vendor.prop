@@ -91,6 +91,8 @@ drm.service.enabled=true
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Graphics
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 
 # IMS
