@@ -1,2 +1,0 @@
-allow hal_vr_default mnt_vendor_file:dir r_dir_perms;
-allow hal_vr_default persist_audio_file:dir r_dir_perms;

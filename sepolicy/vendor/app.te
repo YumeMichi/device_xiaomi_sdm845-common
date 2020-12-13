@@ -1,4 +1,6 @@
+get_prop({ appdomain -isolated_app }, vendor_camera_prop)
+get_prop({ appdomain -isolated_app }, vendor_persist_camera_prop)
+
 get_prop({ appdomain -isolated_app }, vendor_fp_prop)
+
 get_prop({ appdomain -isolated_app }, vendor_tee_listener_prop)
-get_prop({ appdomain -isolated_app }, camera_prop)
-get_prop({ appdomain -isolated_app }, persist_camera_prop)

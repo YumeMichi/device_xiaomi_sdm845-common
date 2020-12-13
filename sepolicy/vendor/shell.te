@@ -1,0 +1,3 @@
+binder_call(shell, hal_perf_default)
+
+allow shell hal_perf_hwservice:hwservice_manager find;

@@ -43,11 +43,13 @@
 # HALs
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_sdm845                   u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_sdm845                                     u:object_r:hal_light_default_exec:s0
-/vendor/bin/hw/android\.hardware\.neuralnetworks@1\.1-service-qti                                       u:object_r:hal_neuralnetworks_default_exec:s0
-/vendor/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_sdm845            u:object_r:hal_pa_fod_sdm845_exec:s0
+/vendor/bin/hw/android\.hardware\.neuralnetworks@1\.2-service-qti                                       u:object_r:hal_neuralnetworks_default_exec:s0
+/vendor/bin/hw/android\.hardware\.power-service                                                         u:object_r:hal_power_default_exec:s0
+/vendor/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_sdm845                 u:object_r:hal_pa_fod_sdm845_exec:s0
 
 # Persist files
-/mnt/vendor/persist/camera(/.*)?              u:object_r:persist_camera_file:s0
+/mnt/vendor/persist/audio(/.*)?               u:object_r:vendor_persist_audio_file:s0
+/mnt/vendor/persist/camera(/.*)?              u:object_r:vendor_persist_camera_file:s0
 /persist(/.*)?                                u:object_r:mnt_vendor_file:s0
 
 # Sockets

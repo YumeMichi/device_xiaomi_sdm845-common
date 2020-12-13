@@ -1,0 +1,3 @@
+add_hwservice(cnd, hal_slmadapter_hwservice)
+
+get_prop(cnd, vendor_slm_prop)

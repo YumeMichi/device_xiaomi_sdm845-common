@@ -2,3 +2,7 @@ dontaudit rild tombstone_data_file:dir search;
 dontaudit rild vendor_file:file ioctl;
 
 set_prop(rild, deviceid_prop)
+
+userdebug_or_eng(`
+  get_prop(rild, vendor_pd_locater_dbg_prop)
+')
