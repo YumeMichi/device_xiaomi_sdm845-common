@@ -1,0 +1,1 @@
+allow lmkd self:global_capability2_class_set block_suspend;

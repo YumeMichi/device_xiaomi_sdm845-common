@@ -1,2 +1,8 @@
 dontaudit priv_app { bt_firmware_file firmware_file }:filesystem getattr;
 dontaudit priv_app mnt_vendor_file:dir search;
+
+allow priv_app hal_embmssl_hwservice:hwservice_manager find;
+
+get_prop(priv_app, vendor_radio_prop)
+
+hal_client_domain(priv_app, hal_telephony)

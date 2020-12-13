@@ -1,9 +1,13 @@
-type camera_ro_prop, property_type;
-
 type thermal_engine_prop, property_type;
+
+type vendor_camera_prop, property_type;
 
 type vendor_dpps_prop, property_type;
 
 type vendor_fp_prop, property_type;
+
+type vendor_qspm_prop, property_type;
+
+type vendor_slm_prop, property_type;
 
 type vendor_wifi_version, property_type;
