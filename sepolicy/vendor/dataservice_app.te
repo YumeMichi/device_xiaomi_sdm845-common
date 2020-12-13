@@ -1,0 +1,3 @@
+hal_client_domain(vendor_dataservice_app, hal_perf)
+
+get_prop(vendor_dataservice_app, vendor_slm_prop)

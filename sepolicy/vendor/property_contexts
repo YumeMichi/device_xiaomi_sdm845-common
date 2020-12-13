@@ -1,9 +1,16 @@
+# Bluetooth
+persist.vendor.bluetooth.   u:object_r:vendor_bluetooth_prop:s0
+
 # Camera
-camera.                     u:object_r:camera_prop:s0
-persist.camera.             u:object_r:camera_prop:s0
-persist.vendor.camera.      u:object_r:camera_prop:s0
-ro.camera.                  u:object_r:camera_prop:s0
-vidhance.                   u:object_r:camera_prop:s0
+camera.                     u:object_r:vendor_camera_prop:s0
+persist.camera.             u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.      u:object_r:vendor_camera_prop:s0
+ro.camera.                  u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.           u:object_r:vendor_camera_prop:s0
+vidhance.                   u:object_r:vendor_camera_prop:s0
+
+vendor.camera.aux.packagelist            u:object_r:exported_default_prop:s0
+vendor.camera.aux.packageblacklist       u:object_r:exported_default_prop:s0
 
 # Display post processing
 init.svc.ppd                             u:object_r:vendor_dpps_prop:s0
@@ -20,31 +27,32 @@ persist.vendor.sys.fp.     u:object_r:vendor_fp_prop:s0
 ro.hardware.fp             u:object_r:vendor_fp_prop:s0
 vendor.fps_hal.            u:object_r:vendor_fp_prop:s0
 
-# Google camera hal read only props
-ro.camera.res.fmq.size                   u:object_r:camera_ro_prop:s0
-ro.camera.req.fmq.size                   u:object_r:camera_ro_prop:s0
-ro.vendor.camera.                        u:object_r:camera_ro_prop:s0
-
 # MIUI specific
 ro.boot.factorybuild       u:object_r:exported_default_prop:s0
 ro.boot.hwversion          u:object_r:exported_default_prop:s0
 ro.carrier.name            u:object_r:exported_default_prop:s0
 ro.miui.cust_variant       u:object_r:exported_default_prop:s0
+ro.product.locale          u:object_r:exported_default_prop:s0
 
 # Mlipay
 persist.vendor.sys.pay.ifaa              u:object_r:vendor_tee_listener_prop:s0
 
+# Qspmhal
+ro.vendor.qspm.enable                    u:object_r:vendor_qspm_prop:s0
+
 # Radio
-persist.vendor.data.shs_ko_load          u:object_r:vendor_radio_prop:s0
 persist.vendor.data.shsusr_load          u:object_r:vendor_radio_prop:s0
-persist.vendor.data.perf_ko_load         u:object_r:vendor_radio_prop:s0
 persist.vendor.data.qmipriod_load        u:object_r:vendor_radio_prop:s0
 
 # Sensors
 persist.sensor.sardisable  u:object_r:sensors_prop:s0
 
+# SLM
+persist.vendor.slm.        u:object_r:vendor_slm_prop:s0
+
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
+sys.thermal.               u:object_r:thermal_engine_prop:s0
 
 # Wifi version
 vendor.wlan.driver.version       u:object_r:vendor_wifi_version:s0

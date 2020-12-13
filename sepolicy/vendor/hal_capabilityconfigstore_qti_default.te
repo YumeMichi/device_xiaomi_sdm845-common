@@ -1,0 +1,3 @@
+userdebug_or_eng(`
+  get_prop(hal_capabilityconfigstore_qti_default, vendor_cap_configstore_dbg_prop)
+')
