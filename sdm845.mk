@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libtinycompress \
     libvolumelistener \
+    sound_trigger.primary.sdm845 \
     tinymix
 
 PRODUCT_COPY_FILES += \
