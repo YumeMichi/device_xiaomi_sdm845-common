@@ -1,0 +1,2 @@
+allow hal_nfc_default hal_nxp_hwservice:hwservice_manager find;
+allow hal_nfc_default hal_secure_element_default:binder call;

@@ -1,4 +1,5 @@
 type hal_embmssl_hwservice, hwservice_manager_type;
 type hal_mlipay_hwservice, hwservice_manager_type;
+type hal_nxp_hwservice, hwservice_manager_type;
 type hal_pasrmanager_memory_hwservice, hwservice_manager_type;
 type hal_slmadapter_hwservice, hwservice_manager_type;
