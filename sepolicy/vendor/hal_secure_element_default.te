@@ -1,1 +1,4 @@
 hal_client_domain(hal_secure_element_default, vendor_hal_qteeconnector)
+allow hal_secure_element_default hal_nxp_hwservice:hwservice_manager {add find};
+allow hal_nfc_default hal_nxp_hwservice:hwservice_manager find;
+allow hal_nfc_default hal_secure_element_default:binder call;
