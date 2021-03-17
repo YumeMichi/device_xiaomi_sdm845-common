@@ -8,6 +8,8 @@ allow hal_pa_fod_sdm845 sysfs_fod:file rw_file_perms;
 allow hal_pa_fod_sdm845 sysfs_graphics:dir r_dir_perms;
 allow hal_pa_fod_sdm845 sysfs_graphics:file rw_file_perms;
 
+binder_call(platform_app, hal_pa_fod_sdm845)
+binder_call(system_server, hal_pa_fod_sdm845)
 binder_call(hal_pa_fod_sdm845, hal_fingerprint_default)
 
 hal_client_domain(hal_pa_fod_sdm845, hal_fingerprint)
