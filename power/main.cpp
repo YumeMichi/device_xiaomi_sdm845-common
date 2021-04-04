@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.aospa.power-service"
+#define LOG_TAG "vendor.aospa.power-service.xiaomi_sdm845"
 
 #include <android-base/logging.h>
 #include <android/binder_manager.h>

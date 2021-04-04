@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-service vendor.power-aospa /vendor/bin/hw/vendor.aospa.power-service
+service vendor.power-aospa /vendor/bin/hw/vendor.aospa.power-service.xiaomi_sdm845
+    override
     class hal
     user system
     group system input
