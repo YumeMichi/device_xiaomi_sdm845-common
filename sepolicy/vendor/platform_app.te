@@ -1,1 +1,3 @@
 binder_call(platform_app, hal_pa_fod_sdm845)
+
+get_prop(platform_app, vendor_display_notch_prop)
