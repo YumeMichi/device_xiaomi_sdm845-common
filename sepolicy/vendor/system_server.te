@@ -1,2 +1,4 @@
 binder_call(system_server, glgps)
 binder_call(system_server, hal_pa_fod_sdm845)
+
+get_prop(system_server, vendor_display_notch_prop)
