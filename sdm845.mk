@@ -133,6 +133,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
+    init.uclamp.rc \
     ueventd.qcom.rc
 
 # Context Hub
