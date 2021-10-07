@@ -17,7 +17,7 @@
 package org.lineageos.settings.thermal;
 
 import android.app.ActivityManager;
-import android.app.ActivityManager.StackInfo;
+import android.app.ActivityTaskManager.RootTaskInfo;
 import android.app.IActivityManager;
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -92,9 +92,9 @@ public class ThermalService extends Service {
         @Override
         public void run() {
             try {
-                StackInfo focusedStack = mIActivityManager.getFocusedStackInfo();
-                if (focusedStack != null && focusedStack.topActivity != null) {
-                    String foregroundApp = focusedStack.topActivity.getPackageName();
+                RootTaskInfo focusedTask = mIActivityManager.getFocusedRootTaskInfo();
+                if (focusedTask != null && focusedTask.topActivity != null) {
+                    String foregroundApp = focusedTask.topActivity.getPackageName();
                     mHandler.postDelayed(this, 500);
                     if (!foregroundApp.equals(mPreviousApp)) {
                         mThermalUtils.setThermalProfile(foregroundApp);
